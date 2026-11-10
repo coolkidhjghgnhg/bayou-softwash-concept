@@ -13,3 +13,123 @@
 .gallery-photo figcaption small{font-size:12px;color:#637780}
 @media(max-width:900px){.gallery-photos{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-photo img{height:360px}}
 @media(max-width:600px){.gallery-photos{grid-template-columns:1fr}.hero-photo img{height:260px}.hero-photo .photo-tag{left:8px;right:8px;bottom:8px;padding:12px;font-size:10px}}
+
+/* CUSTOMER REVIEWS */
+
+.customer-reviews {
+  padding: 90px 20px;
+  background: #f4f8fa;
+}
+
+.reviews-container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.reviews-heading {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.reviews-eyebrow {
+  color: #159c9c;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.reviews-heading h2 {
+  color: #102b42;
+  font-size: clamp(30px, 4vw, 44px);
+  margin: 12px 0;
+}
+
+.reviews-heading p {
+  color: #617485;
+  font-size: 17px;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.review-card {
+  background: white;
+  border: 1px solid #e4edf0;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 8px 30px rgba(16, 43, 66, 0.06);
+  display: flex;
+  flex-direction: column;
+}
+
+.review-stars {
+  color: #f4b942;
+  font-size: 23px;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+}
+
+.review-card p {
+  color: #40566a;
+  font-size: 16px;
+  line-height: 1.8;
+  flex-grow: 1;
+}
+
+.review-author {
+  border-top: 1px solid #e7edf0;
+  margin-top: 24px;
+  padding-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.review-author strong {
+  color: #102b42;
+  font-size: 15px;
+}
+
+.review-author span {
+  color: #8393a0;
+  font-size: 13px;
+}
+
+.reviews-action {
+  text-align: center;
+  margin-top: 42px;
+}
+
+.reviews-action p {
+  color: #40566a;
+  margin-bottom: 18px;
+}
+
+.reviews-button {
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 9px;
+  background: #159c9c;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.reviews-button:hover {
+  background: #107c7c;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .customer-reviews {
+    padding: 65px 18px;
+  }
+}
