@@ -1,0 +1,9 @@
+PRIVATE PHOTO PREVIEW — DO NOT UPLOAD TO PUBLIC GITHUB PAGES UNTIL PHOTO RIGHTS ARE CONFIRMED.
+
+1. Extract this ZIP.
+2. Open index.html by double-clicking it.
+3. Review the layout and images on your computer.
+4. Ask Bayou State Softwash for permission to publish its project photos and logo on the public preview.
+5. Once permission is granted, upload index.html, styles.css, script.js, and the entire images folder to the ROOT of your existing GitHub repository, replacing the existing files.
+6. The contact form opens an email draft, not a real submission. Confirm a valid business email before launch.
+7. This is an independent redesign proposal, not an official company site.
